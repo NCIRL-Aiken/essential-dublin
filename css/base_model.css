@@ -1,13 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-body {
-    background-color:#CCCC99;
-    color: #000305;
-    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size:99%;
-    text-align:left;
-    line-height: 1.5;
-}
 a {
     text-decoration: none;
 }
@@ -18,29 +9,24 @@ a {
          background-color:#6699cc;
          color:#fff;
 }
-	.body {
-    margin: 0 auto;
-    width: 70%;
-    clear:both;
-}
 .mainHeader img {
-    width: 20%;
-    height: auto;
-    margin: 1% 0;
+	width: auto;
+	height: auto;
+	margin: 1% 0;
 }
 
 .mainHeader nav {
-     background-color:#039999;
-    color: #6699cc;
-    height: 40px;
-    border-radius:8px;
-     -moz-border-radius:8 px;
-     -webkit-border-radius:8px;
+	background-color: #FB7FB2;
+	color: #6699cc;
+	height: 40px;
+	border-radius: 8px;
+	-moz-border-radius: 8 px;
+	-webkit-border-radius: 8px;
 }
 
     .mainHeader nav ul {
-        list-style:none;
-        margin: 0 auto;
+	list-style: none;
+	margin: auto;
     }
 	
     .mainHeader nav ul li {
@@ -52,6 +38,9 @@ a {
 		position:absolute;
 		display:none;
 		}
+.mainHeader nav ul ul li  {
+	background-color: #CC0000;
+}
 
     .mainHeader nav a:link, .mainHeader nav a:visited {
         color:#fff;
@@ -62,8 +51,8 @@ a {
 
     .mainHeader nav a:hover, .mainHeader nav a:active,
     .mainHeader .active a:link, .mainHeader .active a:visited {
-        background-color:#33d4a5;
-        text-shadow:none;
+	background-color: #5484D0;
+	text-shadow: none;
     }
 
  .mainHeader nav ul li a {
@@ -71,15 +60,57 @@ a {
          -moz-border-radius:0px;
          -webkit-border-radius:0px;
     }
-	
-.mainContent {
-    border-radius:5px;
-     -moz-border-radius:5px;
-     -webkit-border-radius:5px;
-     line-height:25px;
+
+.body footer{
+	background-color: #FFF;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	font-family: "Verdana", Times, sans-serif;
+	color: #336699;
+	padding-top: 45px;
 }
 
-.content {
-    width:70%;
-    float:left;
+
+.body footer img {
+	float: right;
+	padding-right: 20px;
+	height: 35px;
+}
+
+
+/*Simple reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	background-color: #036;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+}
+canvas {
+	display: block;
+	width: 100%;	
+	background: url(../images/Home_Page_Graphic.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#containingDiv { 
+  overflow: hidden;
+}
+#myCanvas {
+  position: absolute; 
+  top: 0px;
+  left: 0px;
+  
+} .tagline1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: overline;
+	text-align: center;
+	color:white;
 }
